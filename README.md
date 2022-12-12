@@ -28,4 +28,16 @@ https://peerj.com/preprints/3190/
 
 ![image](https://user-images.githubusercontent.com/63146102/207087491-dfb4ba35-91da-4666-824d-6facb3f57c2b.png)
 
+This graph shows the true hourly values, the fitted model and the predictions on the unseen test set.
+
+The model seems like a poor fit, given that it fits values less than zero which isn't possible. 
+
+## Conclusion
+
+This model would need to be improved to be used to accurately forecast taxi demand. This could be done by testing different hyperparameters of the model or trying a poisson time series model.
+
+
+
+
+
 
